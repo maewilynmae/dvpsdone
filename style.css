@@ -1,0 +1,333 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.header 
+{
+	height: 35px; /********header***/
+}
+
+#nav-bar
+{
+position: sticky;
+top: 0;
+z-index: 10;acuts
+}
+.navbar-brand img
+{
+height: 40px;
+padding-left: 30px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover
+{
+	color: #007bff!important;
+}
+.navbar
+{
+	background: #fff;
+}
+.navbar-toggler
+{
+	border: none!important;
+}
+.nav-link 
+{
+	color: #555!important;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+/*--------sliderssssssssss-----------------*/
+
+#slider
+{
+width: 100%;
+}
+.carousel-caption
+{
+	top: 50%;
+	transform: translateY(-50%);
+	bottom: initial!important;
+}
+.carousel-caption h5
+{
+	color: 8D3004;
+	font-size: 50px;
+}
+
+/*----------managements------------------------*/
+#interim
+{
+padding-top: 0px;
+padding-bottom: 100px;
+color: #555;
+text-align: left;
+
+}
+.management-content 
+{
+	margin-right: 100px;
+	padding-top: 50px;
+}
+.intrmpic
+{
+float:left;
+padding:20px ;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: teal;
+   color: white;
+   text-align: center;
+}
+/*---------------project--------------------------------*/
+#project
+{
+padding-top: 40px;
+padding-bottom: 50px;
+color: #555;
+text-align: left;
+}
+.project-content 
+{
+margin-left: 100px;
+padding-top: 10px;
+
+}
+.prjctpic
+{
+float:right;
+padding:20px ;
+margin left: 20px;
+margin-right: 50px;
+
+}
+.borderline 
+ {
+  border: 2px solid red;
+}
+/*---------------------financial---------------------*/
+#financial
+{
+padding-top: 20px;
+padding-bottom: 10px;
+color: #555;
+text-align: left;
+margin-bottom: 10px;
+
+}
+.financial-content 
+{
+margin-right: 100px;
+padding-top: 50px;
+position: relative; 
+	top: -250px;
+	left: 500px;
+}
+.fnnclpic
+{
+float:left;
+padding:20px ;
+
+}
+.solid 
+{
+border-style: outset;
+color: #ed636f;
+font-size: 50px;
+font-style: monospace;
+font-weight: bold;
+}
+/*------------About-----------*/
+#about
+{
+margin:0px;
+padding-top: 30px;
+padding-bottom: 20px;
+
+}
+#imgs
+{
+	margin-left: 100px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+	padding:5px;
+    border:5px solid #000000;
+    float: left;
+}
+#imgs2
+{
+	margin-right: 100px;
+	padding-top: 20px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	padding:5px;
+    border:5px solid #000000;
+    float: right;
+   
+}
+
+/*-----------------------admin------------------------------------------*/
+
+#adminis
+{
+margin-left: : 30px;
+padding: 50px;
+margin bottom: 40px;
+}
+.adminimg
+{
+margin-top: 5px;
+padding-top: 50px;
+float:center;
+padding:50px;
+padding-left: 100px;
+padding-right: 20px;
+padding-top: 30px;
+margin-left: 45px;
+border:2px solid;
+}
+/*----------------iSOLUTIONSSSSSSS-------------*/
+#ictsol
+{
+margin-top: 20px;
+margin-right: 20px;
+margin-left: 20px;
+margin bottom: 50px;
+}
+.half1
+{
+
+	height: 100px;
+	
+}
+.half2
+{
+	height: 100px;
+}
+.ictimg
+{
+float: center;
+padding:50px;
+padding-left: 150px;
+}
+.ictcontext
+{
+padding-right: 70px;
+padding-top: 30px;
+padding bottom: 60px;
+padding-left: 10px;
+margin-left: 0px;
+
+}
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+/*--------------------logistic----------------------*/
+.logisimg
+{
+float: center;
+padding-top: 50px;
+padding-left: 150px;
+padding right: 20px;
+padding bottom: 50px;
+}
+.logiscontext
+{
+padding-right: 120px;
+padding-top: 50px;
+padding bottom: 60px;
+padding-left: 0px;
+margin-bottom: 70px;
+}
+/*--------------contactpage------------*/
+.contactimg
+{
+	padding:20px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	position: relative;
+
+}
+
+body 
+{
+	font-family: Arial, Helvetica, sans-serif;
+}
+* 
+{
+	box-sizing: border-box;
+}
+
+input[type=text], select, textarea 
+{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] 
+{
+  background-color: #4cafab;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+input[type=submit]:hover 
+{
+  background-color: #81dbd7;
+}
+
+.ccontainer 
+{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+.teleicon
+{
+	float:left;
+	padding-left: 300px;
+
+}
+.mobiicon
+{
+	float:right;
+	padding-right: 300px;
+	padding-bottom: 
+}
+
+  
+
+  
